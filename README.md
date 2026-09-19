@@ -97,7 +97,7 @@ The program:
 2. Executes multiple embedded PowerShell scripts using `System.Management.Automation`.  
 3. Converts each event to XML and extracts all `<EventData>` fields.  
 4. Normalizes the data into `PSCustomObject` structures.  
-5. Exports each dataset to CSV.  
+5. Exports findings to CSV.  
 6. Prints status messages and PowerShell errors to the console.
 
 All PowerShell execution is sandboxed inside `using (PowerShell ps = PowerShell.Create())` blocks.
@@ -106,7 +106,7 @@ All PowerShell execution is sandboxed inside `using (PowerShell ps = PowerShell.
 
 ## **Requirements**
 
-- Windows Server or Windows workstation with Security and Application logs available  
+- Windows Domain Controller  
 - .NET Framework / .NET runtime capable of running the compiled executable  
 - PowerShell 5.1+  
 - (Optional) RSAT Active Directory module for Part 3  
