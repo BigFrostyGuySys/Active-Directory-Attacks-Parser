@@ -155,4 +155,4 @@ Files include:
 
 ## **License**
 
-MIT License (or whichever you choose).
+MIT License
