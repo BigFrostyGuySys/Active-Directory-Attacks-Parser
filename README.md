@@ -15,7 +15,7 @@ This tool is designed for defenders, DFIR analysts, and threat hunters who need 
 - **Golden Ticket activity**  
 - **NTLM Relay attempts**
 
-All results are exported to `C:\Temp\` as CSV files for easy review in Excel, Power BI, or your preferred analysis tool.
+All results are exported to `C:\Temp\` as parsed CSV files.
 
 ---
 
